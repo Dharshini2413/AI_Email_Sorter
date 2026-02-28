@@ -28,7 +28,7 @@ def main():
         print("=" * 70)
         print("FROM:", email_data["from"])
         print("SUBJECT:", email_data["subject"])
-        #print("\n🤖 SUMMARY:")
+        #print("\n SUMMARY:")
         #print("Summary:", result["summary"])
         #print("Category:", result["category"])
         #print("Priority:", result["priority"])
