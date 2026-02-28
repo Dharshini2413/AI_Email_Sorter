@@ -46,7 +46,7 @@ if st.button("Fetch & Summarize Unread Emails"):
              })
             mark_as_seen(mail, email_data["id"])
 
-        st.markdown("## 📂 Organized by Category")
+        st.markdown("##  Organized by Category")
 
         for category, items in categorized_emails.items():
             st.markdown(f"### 🏷 {category}")
@@ -54,9 +54,9 @@ if st.button("Fetch & Summarize Unread Emails"):
         for item in items:
             with st.container():
                 st.write("**Subject:**", item["subject"])
-                st.write("📩 From:", item["from"])
-                st.write("⚡ Priority:", item["priority"])
-                st.write("🤖 Summary:", item["summary"])
+                st.write(" From:", item["from"])
+                st.write(" Priority:", item["priority"])
+                st.write(" Summary:", item["summary"])
                 st.markdown("---")
 
             
