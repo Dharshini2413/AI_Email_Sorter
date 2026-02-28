@@ -4,8 +4,8 @@ from email.header import decode_header
 
 
 # Your credentials
-username = "dharshinialagu2001@gmail.com"
-password = "rhob fgmm ekrz tgjl"
+username = "<your_email_id>"
+password = "<your_app_password"
 
 
 def connect_gmail(username, password):
