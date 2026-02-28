@@ -14,7 +14,7 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 st.set_page_config(page_title="AI Email Summarizer", layout="wide")
 
-st.title("📬 AI Gmail Summarizer")
+st.title(" AI Gmail Summarizer")
 st.write("Summarize and categorize your unread emails using Gemini")
 
 if st.button("Fetch & Summarize Unread Emails"):
